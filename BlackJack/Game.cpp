@@ -2,7 +2,7 @@
 #define SKIP(n) for (size_t i = 0; i < n; i++) std::cout << std::endl;
 
 Game::Game(const std::vector<std::string>& names) {
-	std::cout << "Construct: Game." << std::endl;
+	//std::cout << "Construct: Game." << std::endl;
 	// создает вектор игроков из вектора с именами
 	
 	std::vector<std::string>::const_iterator pName;
@@ -16,7 +16,7 @@ Game::Game(const std::vector<std::string>& names) {
 	m_Deck.Shuffle();
 }
 
-Game::~Game() { std::cout << "Destruct: Game." << std::endl; }
+Game::~Game() { /*std::cout << "Destruct: Game." << std::endl;*/ }
 
 void Game::Play()
 {   

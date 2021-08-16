@@ -2,14 +2,14 @@
 #include <typeinfo>
 
 Hand::Hand() {
-	std::cout << "Construct: Hand." << std::endl;
+	/*std::cout << "Construct: Hand." << std::endl;*/
 	m_Cards.reserve(14); //сумма карт с мин знач
 	HowManyAce = 0;
 }
 
 Hand::~Hand() {
 	clear();
-	std::cout << "Destruct: Hand." << std::endl;
+	/*std::cout << "Destruct: Hand." << std::endl;*/
 }
 
 void Hand::Add(Card* pCard) { m_Cards.push_back(pCard); }

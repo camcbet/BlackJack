@@ -1,7 +1,7 @@
 #include "Player.h"
 
-Player::Player(const std::string& name = "") { std::cout << "Construct: Player." << std::endl; }
-Player::~Player() { std::cout << "Destruct: Player." << std::endl; }
+Player::Player(const std::string& name = "") { /*std::cout << "Construct: Player." << std::endl;*/ }
+Player::~Player() { /*std::cout << "Destruct: Player." << std::endl;*/ }
 
 bool Player::IsHitting() {
 	std::cout << m_Name << ", do you want a hit? (Y/N): ";

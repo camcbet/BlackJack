@@ -1,7 +1,7 @@
 #include "GenericPlayer.h"
 
-GenericPlayer::GenericPlayer(const std::string& name) : m_Name(name) { std::cout << "Construct: GenericPlayer." << std::endl; }
-GenericPlayer::~GenericPlayer() { std::cout << "Destruct: GenericPlayer." << std::endl; }
+GenericPlayer::GenericPlayer(const std::string& name) : m_Name(name) { /*std::cout << "Construct: GenericPlayer." << std::endl;*/ }
+GenericPlayer::~GenericPlayer() { /*std::cout << "Destruct: GenericPlayer." << std::endl;*/ }
 
 bool GenericPlayer::IsBusted() //проверка на перебор
 {

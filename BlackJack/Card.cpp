@@ -2,7 +2,7 @@
 
 Card::Card() { /*std::cout << "Construct: Card." << std::endl;*/ m_Rank = ACE; m_Suit = SPADES; m_IsFaceUp = true; }
 Card::Card(Rank r, Suit s, bool IsFaceUp) : m_Rank(r), m_Suit(s), m_IsFaceUp(IsFaceUp) { /*std::cout << "Construct: Card." << std::endl;*/ }
-Card::~Card() { std::cout << "Destruct: Card." << std::endl; }
+Card::~Card() { /*std::cout << "Destruct: Card." << std::endl;*/ }
 
 int Card::getRank() const {
 	if (m_IsFaceUp) {

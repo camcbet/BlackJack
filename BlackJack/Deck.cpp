@@ -2,16 +2,16 @@
 
 Deck::Deck()
 {
-	std::cout << "Construct: Deck." << std::endl;
+	//std::cout << "Construct: Deck." << std::endl;
 	m_Cards.reserve(52);
 	Populate();
 }
 
-Deck::~Deck() { std::cout << "Destruct: Deck." << std::endl; }
+Deck::~Deck() { /*std::cout << "Destruct: Deck." << std::endl;*/ }
 
 void Deck::Populate()
 {
-	std::cout << "Создание колоды" << std::endl;
+	//std::cout << "Создание колоды" << std::endl;
 	clear();
 	for (int s = HEARTS; s <= DIAMONDS; ++s)
 	{
